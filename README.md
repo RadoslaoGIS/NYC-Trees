@@ -132,7 +132,7 @@ The NYC Tree Census dataset contains detailed information on street trees across
 
 You can work with GeoPackage files using **QGIS**.
 
-## 5. Interactive Maps with Plotly Express (`nyc_trees_plotly.ipynb`)
+## 5. Interactive Maps with Plotly Express (`nyc_trees_maps.ipynb`)
 
 **Create interactive, web-ready visualizations to communicate spatial findings effectively.**
 
