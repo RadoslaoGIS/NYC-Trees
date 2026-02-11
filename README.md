@@ -2,7 +2,10 @@
 
 **🌳 Data cleaning and analysis, and geospatial analysis for the 1995, 2005 and 2015 tree censuses in New York City using Python.**
 
-**⚠️ To use the project, first download the datasets from Kaggle [[LINK](https://www.kaggle.com/datasets/nycparks/tree-census/data)]**
+**⚠️ To use the project, first download the dataset from Kaggle [[LINK](https://www.kaggle.com/datasets/nycparks/tree-census)]**
+- `new_york_tree_census_1995.csv`
+- `new_york_tree_census_2005.csv`
+- `new_york_tree_census_2015.csv`
 
 **📁 The project is organized into four Jupyter Notebook files:**
 
@@ -31,7 +34,7 @@ The NYC Tree Census dataset contains detailed information on street trees across
 - Compare borough-level characteristics
 - Visualize spatial patterns using static and interactive maps
 
-## 2. Raw Data Cleaning (`nyc_trees_clean.ipynb`)
+## 2.1. Raw Data Cleaning (`nyc_trees_clean.ipynb`)
 
 **Prepare the raw NYC Tree Census data for analysis by handling missing values, correcting data types, and standardizing fields.**
 
@@ -69,7 +72,7 @@ The NYC Tree Census dataset contains detailed information on street trees across
 4. Outputs
 - Export cleaned data to a new CSV files: `1995_trees.csv`, `2005_trees.csv`, `2015_trees.csv`
 
-## 3. Exploratory Data Analysis (`nyc_trees_da.ipynb`)
+## 2.2. Exploratory Data Analysis (`nyc_trees_da.ipynb`)
 
 **Explore patterns, trends, and relationships in the cleaned dataset using statistical summaries and visualizations.**
 
@@ -105,7 +108,7 @@ The NYC Tree Census dataset contains detailed information on street trees across
 - Consistent color palettes
 - Proper figure sizing
 
-## 4. Geospatial Analysis with GeoPandas (`nyc_trees_geopandas.ipynb`)
+## 2.3. Geospatial Analysis with GeoPandas (`nyc_trees_geopandas.ipynb`)
 
 **Incorporate geographic context into the analysis by converting tabular data into spatial data.**
 
@@ -132,7 +135,7 @@ The NYC Tree Census dataset contains detailed information on street trees across
 
 You can work with GeoPackage files using **QGIS**.
 
-## 5. Interactive Maps with Plotly Express (`nyc_trees_maps.ipynb`)
+## 2.4. Interactive Maps with Plotly Express (`nyc_trees_maps.ipynb`)
 
 **Create interactive, web-ready visualizations to communicate spatial findings effectively.**
 
@@ -155,3 +158,19 @@ You can work with GeoPackage files using **QGIS**.
 - Zoom and pan
 - Hover-based inspection
 - Color encoding by species, health, or size
+
+## 3. About Dataset*
+
+### Context
+
+New York City’s trees shade us in the summer, beautify our neighborhoods, help reduce noise, and support urban wildlife. Beyond these priceless benefits, our urban forest provides us a concrete return on the financial investment we put into it. This return includes stormwater interception, energy conservation, air pollutant removal, and carbon dioxide storage. Our publicly owned trees are as much of an asset to us as our streets, sewers, bridges, and public buildings.
+
+### Content
+
+This dataset includes a record for every tree in New York City and includes the tree's location by borough and latitude/longitude, species by Latin name and common names, size, health, and issues with the tree's roots, trunk, and branches.
+
+### Acknowledgements
+
+The 2015, 2005, and 1995 tree censuses were conducted by NYC Parks and Recreation staff, TreesCount! program staff, and hundreds of volunteers.
+
+_* Data Card - Kaggle_
