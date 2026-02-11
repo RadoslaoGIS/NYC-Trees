@@ -34,7 +34,7 @@ The NYC Tree Census dataset contains detailed information on street trees across
 - Compare borough-level characteristics
 - Visualize spatial patterns using static and interactive maps
 
-## 2.1. Raw Data Cleaning (`nyc_trees_clean.ipynb`)
+## 2.1. Raw Data Cleaning Pipeline (`nyc_trees_clean.ipynb`)
 
 **Prepare the raw NYC Tree Census data for analysis by handling missing values, correcting data types, and standardizing fields.**
 
